@@ -1,0 +1,16 @@
+:root {
+  --main-bg-color: #3d3863;
+}
+
+body {
+  background: var(--main-bg-color);
+  border-radius: 5px;
+  display: flex;
+  height: 50px;
+  transition: height 0.3s ease-in;
+}
+
+@keyframes test {
+  0% { height: 50px; }
+  1000% { height: 150px; }
+}
