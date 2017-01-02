@@ -1,2 +1,4 @@
-# 2323design
-23:23 Design Repo
+# 23:23 Design
+Welcome to 23:23 Design.
+
+This site is generated with Jekyll & hosted on Github Pages
