@@ -1,19 +1,17 @@
 # Site settings
-title: My Little Website
-tagline: "Changing the world, one uninspired quote at a time"
-url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+title: 23:23 Design | Freelance Web Design and Development Sevices
+tagline: "Freelance Web Design and Development Services"
+url: "http://2323.design" # The base hostname & protocol for your site. Use it if you need absolute URL's
 
 # Social
 socialimg: /img/social.jpg # be sure to change this image
-facebook: fbusername
-twitter: twusername
-github: ghusername
-googleplus: gusername
-instagram: igusername
+facebook: 2323.design
+twitter: 2323design
+github: conormcafee
 
 # Contact
-phone: "916-276-1044" # This is my real number. You should text me.
-email: "hello@garrettboatman.com" # This is my real email address. Please don't email me.
+phone: "07709128374" # This is my real number. You should text me.
+email: "hello@conormcafee.co.uk" # This is my real email address. Please don't email me.
 
 # Use this for production
 #sass:
