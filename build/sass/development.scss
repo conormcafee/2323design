@@ -1,7 +1,7 @@
-@import "settings/_mixins";
-@import "settings/_variables";
+@import "settings/mixins";
+@import "settings/variables";
 
-@import "vendor/_normalize";
+@import "vendor/normalize";
 
-
-@import "settings/_reuseables";
+@import "components/header";
+@import "components/nav";

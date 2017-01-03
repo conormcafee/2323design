@@ -39,3 +39,12 @@ $font-sizes: (
     @include font-size($value);
   }
 }
+
+
+
+
+/* Alignment */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

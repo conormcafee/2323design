@@ -5,15 +5,37 @@ fulltitle: "Freelance Web Design and Development Services"
 excerpt: Freelance Web Design and Development Services
 ---
 
+<header class="header">
 
-<div class="dt dt--fixed vh-100">
-  <div class="dtc v-mid pa4 tc">
-    <img src="/assets/svg/2323-design-branding.svg" class="db center" />
+  <img src="/assets/svg/2323-design-branding.svg" class="header_logo" />
 
-    <div class="measure-wide center white mt4 sans-serif">
-      <p class="f4 lh-title"><i>{{ site.tagline }}</i></p>
-      <p class="f6 mt4 ttu pt4" style="color: #EAA74F;"><b>Full website coming early 2017</b></p>
-    </div>
-
+  <div class="header_intro">
+    <p><i>{{ site.tagline }}</i></p>
   </div>
-</div>
+
+</header>
+
+<nav class="nav">
+
+  <ul class="nav_list">
+    {% for item in site.data.nav %}
+    <li class="nav_list-item">
+    {% if item.btn == 'y' %}
+      <a href="{{ item.url }}" class="btn btn--green">{{ item.title }}</a>
+    {% else %}
+      <a href="{{ item.url }}" class="nav_list-link">{{ item.title }}</a>
+    {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+</nav>
+
+<section class="text">
+
+  <div class="measure">
+    <p>Specialising in responsive web design &amp; development, 23:23 aim to provide search engine friendly, user friendly &amp; fast websites which deliver results.</p>
+    <p>Aside from responsive web design, 23:23 provides branding, social media deisgn, graphic &amp; print design services.</p>
+  </div>
+
+</section>

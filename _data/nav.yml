@@ -1,0 +1,15 @@
+- title: Work
+  url: /work
+  btn: n
+
+- title: Journel
+  url: /journal
+  btn: n
+
+- title: Rates
+  url: /rates
+  btn: n
+
+- title: Start a Project
+  url: /start-a-project
+  btn: y
