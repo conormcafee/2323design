@@ -8,7 +8,7 @@ var postcss = require('gulp-postcss'),
     gulp = require('gulp'),
     cssnext = require('postcss-cssnext');
     cssnano = require('cssnano');
-    //autoprefixer = require('autoprefixer');
+    autoprefixer = require('autoprefixer');
 
 // CSS
 gulp.task('css', function () {

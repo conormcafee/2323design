@@ -1,0 +1,240 @@
+html {
+  font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+img {
+  border-style: none;
+  display: block;
+  max-width: 100%;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/* Colors & Background Colours */
+.white,
+.hover-white:hover {
+  color: #ffffff;
+}
+
+.bg-white,
+.hover-bg-white:hover {
+  background-color: #ffffff;
+}
+
+.off-white,
+.hover-off-white:hover {
+  color: #f4f7fc;
+}
+
+.bg-off-white,
+.hover-bg-off-white:hover {
+  background-color: #f4f7fc;
+}
+
+.purple,
+.hover-purple:hover {
+  color: #3d3863;
+}
+
+.bg-purple,
+.hover-bg-purple:hover {
+  background-color: #3d3863;
+}
+
+.light-purple,
+.hover-light-purple:hover {
+  color: #8771b6;
+}
+
+.bg-light-purple,
+.hover-bg-light-purple:hover {
+  background-color: #8771b6;
+}
+
+.blue,
+.hover-blue:hover {
+  color: #3098ce;
+}
+
+.bg-blue,
+.hover-bg-blue:hover {
+  background-color: #3098ce;
+}
+
+.yellow,
+.hover-yellow:hover {
+  color: #eaa74f;
+}
+
+.bg-yellow,
+.hover-bg-yellow:hover {
+  background-color: #eaa74f;
+}
+
+.red,
+.hover-red:hover {
+  color: #c75879;
+}
+
+.bg-red,
+.hover-bg-red:hover {
+  background-color: #c75879;
+}
+
+.green,
+.hover-green:hover {
+  color: #2ead77;
+}
+
+.bg-green,
+.hover-bg-green:hover {
+  background-color: #2ead77;
+}
+
+/* Font Sizes */
+.f1 {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.f2 {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.f3 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.f4 {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.f5 {
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+.f6 {
+  font-size: 20px;
+  font-size: 2rem;
+}

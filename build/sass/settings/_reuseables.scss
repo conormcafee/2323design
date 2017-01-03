@@ -1,0 +1,41 @@
+/* Colors & Background Colours */
+
+$colors: (
+  "white":           #ffffff,
+  "off-white":       #f4f7fc,
+  "purple":          #3d3863,
+  "light-purple":    #8771b6,
+  "blue":            #3098ce,
+  "yellow":          #eaa74f,
+  "red":             #c75879,
+  "green":           #2ead77
+);
+
+@each $selector, $value in $colors {
+  .#{$selector},
+  .hover-#{$selector}:hover {
+    color: $value;
+  }
+
+  .bg-#{$selector},
+  .hover-bg-#{$selector}:hover {
+    background-color: $value;
+  }
+}
+
+/* Font Sizes */
+
+$font-sizes: (
+  "f1": 1.0,
+  "f2": 1.2,
+  "f3": 1.4,
+  "f4": 1.6,
+  "f5": 1.8,
+  "f6": 2.0
+);
+
+@each $selector, $value in $font-sizes {
+  .#{$selector} {
+    @include font-size($value);
+  }
+}
